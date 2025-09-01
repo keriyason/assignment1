@@ -193,7 +193,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e9afecdaef99c2244b3629b758a385eb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1135876163}
   m_SourcePrefab: {fileID: 100100000, guid: e9afecdaef99c2244b3629b758a385eb, type: 3}
 --- !u!1 &338842187
 GameObject:
@@ -5032,7 +5035,7 @@ Transform:
   m_GameObject: {fileID: 338842187}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.76, y: 0.51, z: -0.93}
+  m_LocalPosition: {x: 0.06, y: 0.51, z: 0.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5218,12 +5221,30 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: -0.14, y: 3.415, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1135876158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e9afecdaef99c2244b3629b758a385eb, type: 3}
+  m_PrefabInstance: {fileID: 88992406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1135876163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135876158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1c0f83022398c4089a1cfac6643bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: {x: 0, y: 60, z: 0}
 --- !u!1 &1753439926
 GameObject:
   m_ObjectHideFlags: 0
@@ -5236,6 +5257,7 @@ GameObject:
   - component: {fileID: 1753439929}
   - component: {fileID: 1753439928}
   - component: {fileID: 1753439927}
+  - component: {fileID: 1753439931}
   m_Layer: 0
   m_Name: Cubert
   m_TagString: Untagged
@@ -5329,6 +5351,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0.637, y: -1.789, z: 0.618}
+--- !u!114 &1753439931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753439926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1c0f83022398c4089a1cfac6643bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: {x: 60, y: 50, z: 60}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
